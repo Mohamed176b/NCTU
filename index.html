@@ -27,9 +27,9 @@
             <img src="images/logo.png" alt="NCTU Logo" class="logo">
             <div class="links">
                 <ul class="main-ul">
-                    <li><a href="index.html">الصفحة الرئيسية</a></li>
-                    <li>
-                        <a href="#dep">الأقسام</a>
+                    <li class="one"><a  href="index.html">الصفحة الرئيسية</a></li>
+                    <li class="one name">
+                        <a class="one_1"  href="#dep">الأقسام</a>
                         <ul class="nested-ul">
                             <li><a href="pages/it.html" target="_blank">تكنولوجيا المعلومات</a></li>
                             <li><a href="pages/mecha.html" target="_blank">ميكاترونكس</a></li>
@@ -39,7 +39,8 @@
                             <li><a href="pages/pros.html" target="_blank">تكنولوجيا البترول</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">معلومات التواصل</a></li>
+                    <li class="one"><a  href="#contact">معلومات التواصل</a></li>
+                    <li class="one"><a  href="pages/log-in.html" target="_blank">تسجيل الدخول</a></li>
                 </ul>
             </div>
         </div>
@@ -47,119 +48,190 @@
     <!-- End header -->
     <!-- Start landing -->
     <section class="landing">
-        <article class="land-cont">
+        <div class="land-cont">
             <div>
                 <h1>رؤية مصر<br>2030</h1>
             </div>
             <div class="vertical-line"></div>
             <div>
                 <p class="p-content">
-                    تؤكد رؤية مصر 2030 على أن التعليم يجب أن يساهم بشكل كبير في التحول الاجتماعي في مصر خلال السنوات الإثني عشر القادمة. في هذا الصدد ، وضعت ثلاثة أهداف محددة لتطوير الإمكانات البشرية:
+                    تؤكد رؤية مصر 2030 على أن التعليم<br>    يجب أن يساهم بشكل كبير في التحول الاجتماعي في مصر <br>خلال السنوات الإثني عشر القادمة. في هذا الصدد<br> ، وضعت ثلاثة أهداف محددة لتطوير الإمكانات البشرية:
                 </p>
-                <ol class="order-li">
+                <ol class="order-li ord">
                     <li>تحسين نوعية نظام التعليم بما يتماشى مع النظم الدولية.</li>
                     <li>توسيع الوصول إلى التعليم للجميع.</li>
-                    <li>تحسين القدرة التنافسية للنظام ونتائج التعلم عبر المناطق ومجموعات السكان المختلفة.</li>
+                    <li>تحسين القدرة التنافسية للنظام ونتائج التعلم عبر المناطق<br> ومجموعات السكان المختلفة.</li>
                 </ol>
             </div>
-        </article>
-    </section>
-    <!-- End landing -->
-    <!-- Start article 1 -->
-    <div class="comp">
-        <h2>عن التعليم التكنولوجي</h2>
-    </div>
-    <article class="art1">
-        <div class="art-content">
-            <p class="art-p">
-                إن نظام التعليم والتدريب المأمول سيكون مرتكزا على الطالب، ويشجع التفكير النقدي ويهدف إلى تخريج خريجين/ متدربين ذوي كفاءة عالية من الناحية التكنولوجية ” نظام يبني الشخصية ويطلق  العنان لإمكانياتها لمواطن فخور مبتكَّر ، متسامح بالتنوع فخور بتاريخه، وقادر على التنافس إقليمياً وعالمياً.
-            </p>
-            <p class="art-p">
-                ولتحقيق هذة الرؤية تبنت الحكومة المصرية خطط وبرامج طموحة في مجال التعليم والتدريب  والموارد البشرية لتحسين الأداء وزيادة الدخل القومي لرفع مستوى معيشة المواطنين، إنه اعتقاد  راسخ بأن التنمية حق أساسي من حقوق الإنسان وهي المهمة الأكثر أهمية التي تواجهها
-            </p>
-            <p class="art-p">
-                في هذا السياق، عملت وزارة التعليم العالي على إصدار قانون لإنشاء الجامعات التكنولوجية لأول مرة في مصر ، حيث يهدف إلى تطوير التعليم التكنولوجي التطبيقي والتدريب بالتوازي مع مسار  التعليم الأكاديمي. يحصل الخريجون على شهادات جامعية عبارة عن دبلوم تكنولوجي فوق المتوسط و بكالوريوس تكنولوجي بالاضافة الي الدراسات العليا وكذلك تلبية احتياجات السوق المصرية من الموارد البشرية اللازمة للخطط الفنية للتنمية الاجتماعية والاقتصادية للدولة
-            </p>
         </div>
-    </article>
-    <!-- End article 1 -->
+    </section> 
+    <!-- End landing -->
+    <!-- Start video gallery -->
+    <h3 class="heading">فيديوهات تعريفية عن جامعة القاهرة الجديدة التكنولوجية</h3>
+    <section class="container">
+        <div class="main-video">
+            <div class="video">
+                <video src="videos/video1.mp4" controls autoplay></video>
+                <h3 class="title">فيديو تعريفي عن جامعة القاهرة الجديدة التكنولوجية</h3>
+            </div>
+        </div>
+        <div class="video-list">
+            <div class="vid active">
+                <video src="videos/video1.mp4" controls></video>
+                <h3 class="title">فيديو تعريفي عن جامعة القاهرة الجديدة التكنولوجية</h3>
+            </div>
+            <div class="vid">
+                <video src="videos/video2.mp4" controls></video>
+                <h3 class="title">معامل الجامعة</h3>
+            </div>
+            <div class="vid">
+                <video src="videos/video3.mp4" controls></video>
+                <h3 class="title">الجامعة التكنولوجية بالقاهرة الجديدة..نقلة نوعية فى مسار التعليم الفني في مصر</h3>
+            </div>
+            <div class="vid">
+                <video src="videos/video4.mp4" controls></video>
+                <h3 class="title"> لقاء الدكتور طارق عبد الملاك ميخائيل عميد كلية تكنولوجيا الصناعة والطاقه ببرنامج مساء dmc</h3>
+            </div>
+            <div class="vid">
+                <video src="videos/video5.mp4" controls></video>
+                <h3 class="title">كلمة الدكتور خالد عبد الغفار وزير التعليم العالي والبحث العلمي في- افتتاح الجامعة</h3>
+            </div>
+            <div class="vid">
+                <video src="videos/video6.mp4" controls></video>
+                <h3 class="title">حوار  الدكتور طارق عبدالملاك ميخائيل عميد كلية تكنولوجيا الصناعة والطاقة  عن
+                بموقع صدى البلد.</h3>
+            </div>
+        </div>
+    </section>
     <!-- Start article 2 -->
     <div class="comp">
-        <h2>عن جامعة القاهرة الجديدة التكنولوجية</h2>
+        <h2 class="heading_1">عن جامعة القاهرة الجديدة التكنولوجية</h2>
     </div>
-    <article class="art2">
+    <div class="art2">
         <div class="art-content">
             <p class="art-p">
-                تقدم الجامعة تعليم تكنولوجي متميز من خلال برامج علمية وعملية ذات جوده عالية في التعليم الجامعي والدراسات العليا وتأهيل خريجيين بمستوي متميز من المعرفة والابداع التكنولوجي قادر على المنافسة والعمل الجماعي والابتكار وتحقيق ضمان الجودة والاعتماد الاكاديمي وفق  المعايير المعتمدة عالميا و الاسهام بفاعلية في تلبية احتياجات المجتمع وسوق العمل المحلي والاقليمي والدولي وانتاج بحوث ودراسات علمية وتكنولوجية إبداعية.
+                تقدم الجامعة تعليم تكنولوجي متميز من خلال برامج علمية وعملية ذات جوده عالية في التعليم<br> الجامعي والدراسات العليا وتأهيل خريجيين بمستوي متميز من المعرفة والابداع التكنولوجي قادر<br> على المنافسة والعمل الجماعي والابتكار وتحقيق ضمان الجودة والاعتماد الاكاديمي وفق <br> المعايير المعتمدة عالميا و الاسهام بفاعلية في تلبية احتياجات المجتمع وسوق العمل المحلي <br>
+                والاقليمي والدولي وانتاج بحوث ودراسات علمية وتكنولوجية إبداعية.
+            <br>
+            
             </p>
             <hr>
+            
+            <br>
             <p class="art-p">
-                الاسهام الفعال في التنمية الاقتصادية والاجتماعية بتوفير التعليم التكنولوجي بالجودة و الكفاية  التي يتطلبها سوق العمل وتحقيق التميز والابداع و الريادة العالمية بما يكفل الاستقلالية  والاكتفاء الذاتي ومواجهة التحديات الحالية و الم ستقبلية.
+                الاسهام الفعال في التنمية الاقتصادية والاجتماعية بتوفير التعليم التكنولوجي بالجودة و الكفاية  التي يتطلبها سوق العمل وتحقيق التميز والابداع و الريادة العالمية بما يكفل الاستقلالية  والاكتفاء الذاتي ومواجهة التحديات الحالية و المستقبلية.
             </p>
         </div>
-    </article>
+    </div>
     <!-- End article 2 -->
     <!-- Start department section -->
     <div class="comp" id="dep">
-        <h2>الأقسام</h2>
+        <h2 class="heading_dep">الأقسام</h2>
     </div>
-    <section class="departments">
-        <div class="department">
-            <p>تكنولوجيا المعلومات</p>
-            <a href="pages/it.html" target="_blank">المزيد</a>
-        </div>
-        <div class="department">
-            <p>ميكاترونكس</p>
-            <a href="pages/mecha.html" target="_blank">المزيد</a>
-        </div>
-        <div class="department">
-            <p>اوتوترونكس</p>
-            <a href="pages/auto.html" target="_blank">المزيد</a>
-        </div>
-        <div class="department">
-            <p>طاقة جديدة ومتجددة</p>
-            <a href="pages/petr.html" target="_blank">المزيد</a>
-        </div>
-        <div class="department">
-            <p>تكنولوجيا الأطراف الصناعية</p>
-            <a href="pages/rene.html" target="_blank">المزيد</a>
-        </div>
-        <div class="department">
-            <p>تكنولوجيا البترول</p>
-            <a href="pages/pros.html" target="_blank">المزيد</a>
+    <section class="dep">
+        <div class="contanier-dep">
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico1">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>تكنولوجيا المعلومات</p>
+                    <a href="pages/it.html" target="_blank">المزيد</a>
+                </div>
+            </div>
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico2">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>ميكاترونكس</p>
+                    <a href="pages/mecha.html" target="_blank">المزيد</a>
+                </div>
+            </div>
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico3">
+                        <i class="fas fa-car"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>اوتوترونكس</p>
+                    <a href="pages/auto.html" target="_blank">المزيد</a>
+                </div>
+            </div>
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico4">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>طاقة جديدة ومتجددة</p>
+                    <a href="pages/petr.html" target="_blank">المزيد</a>
+                </div>
+            </div>
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico5">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>تكنولوجيا الأطراف الصناعية</p>
+                    <a href="pages/rene.html" target="_blank">المزيد</a>
+                </div>
+            </div>
+            <div class="depar">
+                <div class="icon">
+                    <div class="div-ico6">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                </div>
+                <div class="tit-but">
+                    <p>تكنولوجيا البترول</p>
+                    <a href="pages/pros.html" target="_blank">المزيد</a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- End department section -->
     <!-- Start contact -->
     <div class="contact" id="contact">
         <h2>معلومات التواصل</h2>
+        <div class="triangle_1"></div>
+        <div class="triangle_2"></div>
     </div>
     <section class="cntact-content">
+        
         <div class="address">
             <p>العنوان</p>
             <a href="https://goo.gl/maps/UeYLNRqLfBwhDVcC6" target="_blank">
-                <i class="fas fa-university"></i>
-                <p>
-                    الجامعة التكنولوجية بالقاهرة الجديدة اللوتس الجنوبية، أمام نادي رويال التجمع الخامس، القاهرة، مصر     
+                <i class="fas fa-university foot-ico"></i>
+                <p class="p foot-p-hover">
+                    اللوتس الجنوبية، أمام نادي رويال  التجمع الخامس، القاهرة، مصر     
                 </p>
             </a>
         </div>
         <div class="phone">
             <p>اتصل بنا</p>
-            <i class="fas fa-phone-alt"></i>
-            <p>02-25390250</p>
+            <i class="fas fa-phone-alt foot-ico"></i>
+            <p class="p">02-25390250</p>
         </div>
         <div class="email">
             <p>تواصل معنا عبر البريد الالكتروني</p>
             <a href="mailto:info@nctu.edu.eg?subject=Contact">
-                <i class="fas fa-envelope"></i>
-                <p>info@nctu.edu.eg</p>
+                <i class="fas fa-envelope foot-ico"></i>
+                <p class="p foot-p-hover">info@nctu.edu.eg</p>
             </a>
         </div>
         <div class="facebook">
             <a href="https://www.facebook.com/nctu.edu.eg" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-                <p>Facebook</p>
+                <i class="fab fa-facebook-square foot-ico"></i>
+                <p class="foot-p-hover">Facebook</p>
             </a>
         </div>
     </section>
@@ -168,10 +240,29 @@
     <footer class="foot">
         <div>
             <i class="fas fa-laptop-code"></i>
-            <p>تم تصميم وتنفيذ الموقع بواسطة طلاب من جامعة القاهرة الجديدة  التكنولوجية, قسم تكنولوجيا المعلومات, الفرقة الثانية</p>
+            <p class="end">تم تصميم وتنفيذ الموقع بواسطة طلاب من جامعة القاهرة الجديدة  التكنولوجية, قسم تكنولوجيا المعلومات, الفرقة الثانية</p>
         </div>
-        <p class="copyright">&copy; 2021 <span>&hearts; </span> All Right reserved to Project organizers </p>
-    </footer>
+        <p class="copyright">&copy; 2022 <span class="heart_icon">&hearts; </span> All Right reserved to Project organizers </p>
+    </footer> 
     <!-- End footer -->
+    <!-- Start video gallery javascript -->
+    <script>
+        let listVideo = document.querySelectorAll('.video-list .vid');
+        let mainVideo = document.querySelector('.main-video video');
+        let title = document.querySelector('.main-video .title');
+        listVideo.forEach(video => {
+            video.onclick = () => {
+                listVideo.forEach(vid => vid.classList.remove('active'));
+                video.classList.add('active');
+                if (video.classList.contains('active')) {
+                    let src = video.children[0].getAttribute('src');
+                    mainVideo.src = src;
+                    let text = video.children[1].innerHTML;
+                    title.innerHTML = text;
+                };
+            };
+        });
+    </script>
+    <!-- End video gallery javascript -->
 </body>
 </html>
