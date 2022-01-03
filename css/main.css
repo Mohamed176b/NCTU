@@ -8,6 +8,9 @@
 }
 /* End Variables */
 /* Start Global Rules */
+::selection {
+    color: tomato;
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -413,6 +416,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 .dep .contanier-dep .depar .icon div {
     width: 200px;
@@ -472,6 +476,7 @@ a {
     border-width: 5px;
     padding: 10px 20px;
     font-size: 20px;
+    transition: .5s;
 }
 .dep .contanier-dep .depar .tit-but a:hover {
     color: white;
@@ -582,6 +587,11 @@ a {
 .heart_icon{
     color: red;
 }
+.foot-ico:hover,
+.foot-p-hover {
+    transition: .5s;
+}
+
 .foot-ico:hover,
 .foot-p-hover:hover {
     color: tomato;

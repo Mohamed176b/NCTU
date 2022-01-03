@@ -1,0 +1,172 @@
+/* Start Variables */
+:root {
+    --main-color: #297BE2 ;
+    --secondary-color: #1F4FA3;
+    --thrid-color: #FFD575;
+    --fourth-color: #EEEEEE;
+    --fifth-color: #1D1D24;
+}
+/* End Variables */
+.cover {
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 55px);
+}
+.cover::before {
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.back-it {
+    background-image: url(../images/it.jpg);
+}
+.back-mecha {
+    background-image: url(../images/mecha.jpeg);
+}
+.back-auto {
+    background-image: url(../images/auto.jpg);
+}
+.back-ren {
+    background-image: url(../images/rene.jpg);
+}
+.back-petr {
+    background-image: url(../images/petr.jpeg);
+}
+.back-pros {
+    background-image: url(../images/pros.jpg);
+}
+.cover h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+}
+.cover h1::after {
+    position: absolute;
+    content: "";
+    width: 75px;
+    background-color: var(--thrid-color);
+    height: 4px;
+    left: 470px;
+    top: 50px;
+}
+.cover h1::before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    background-color: var(--thrid-color);
+    height: 4px;
+    right: 470px;
+    top: 50px;
+}
+.back-mecha h1::after {
+    left: 300px !important; 
+}
+.back-mecha h1::before {
+    right: 300px !important;
+}
+
+.back-auto h1::after {
+    left: 320px !important;
+}
+.back-auto h1::before {
+    right: 320px !important;
+}
+
+.back-pros h1::after {
+    left: 300px !important; 
+}
+.back-pros h1::before {
+    right: 300px !important;
+}
+
+.back-rene h1::after {
+    left: 320px !important;
+}
+.back-rene h1::before {
+    right: 320px !important;
+}
+
+.back-petr h1::after {
+    left: 320px !important;
+}
+.back-petr h1::before {
+    right: 320px !important;
+}
+.h2 {
+    background-color: var(--fourth-color);
+    padding: 30px 0px;
+}
+.h2 h2{
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+.h2 h2::before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    background-color: var(--thrid-color);
+    height: 4px;
+    left: 600px;
+    top: 25px;
+}
+.h2 h2::after {
+    position: absolute;
+    content: "";
+    width: 75px;
+    background-color: var(--thrid-color);
+    height: 4px;
+    left: 842px;
+    top: 25px;
+}
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .second {
+    background-color: var(--fourth-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin: 30px 50px;
+}
+.main .second .one {
+    padding: 15px;
+    font-size: 23px;
+    direction: rtl;
+}
+.main_2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.main_2 > ul {
+    background-color: var(--fourth-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin: 30px 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main_2 > ul .ul_frist,
+.main_2 > ul .ul_second,
+.main_2 > ul .ul_third,
+.main_2 > ul .ul_fourth {
+    display: flex;
+    justify-content: space-between;
+}
+.main_2 > ul li {
+    margin: 20px;
+}
