@@ -33,8 +33,9 @@
 .back-auto {
     background-image: url(../images/auto.jpg);
 }
-.back-ren {
+.back-rene {
     background-image: url(../images/rene.jpg);
+    
 }
 .back-petr {
     background-image: url(../images/petr.jpeg);
@@ -80,24 +81,24 @@
 }
 
 .back-pros h1::after {
-    left: 300px !important; 
+    left: 385px !important; 
 }
 .back-pros h1::before {
-    right: 300px !important;
+    right: 385px !important;
 }
 
 .back-rene h1::after {
-    left: 320px !important;
+    left: -90px !important ;
 }
 .back-rene h1::before {
-    right: 320px !important;
+    right: -90px !important;
 }
 
 .back-petr h1::after {
-    left: 320px !important;
+    left: 600px !important;
 }
 .back-petr h1::before {
-    right: 320px !important;
+    right: 600px !important;
 }
 .h2 {
     background-color: var(--fourth-color);
